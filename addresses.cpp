@@ -11,8 +11,8 @@ int main() {
 
   cout << "\nRange-based for loop" << endl;
   int j = 0;
-  for (double& element : v) {
-    cout << "Address of element " << j + 1 << " = " << &element << endl;
+  for (double& c : v) {
+    cout << "Address of element " << j + 1 << " = " << &c << endl;
     ++j;
   }
 }
