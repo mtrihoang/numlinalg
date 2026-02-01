@@ -1,1 +1,2 @@
+git checkout other-branch -- path/to/file
 git --no-pager log --graph --oneline --all --decorate
